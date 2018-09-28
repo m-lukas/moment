@@ -27,6 +27,8 @@ addParseToken('c', function (input, array) {
 
 // MOMENTS
 
+//Easter EGG :=)
+
 export function getSetCentury (input) {
     return input == null ? Math.ceil((toInt(toString(this.year())[0] + toString(this.year())[1]) + 1)) : Math.ceil((toInt(toString(this.year())[0] + toString(this.year())[1]) + 1));
 }
